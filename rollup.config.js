@@ -47,7 +47,7 @@ export default {
       }
     }),
     postcss({
-      extract: true,
+      extract: false,
       minimize: true,
       use: [
         ['sass', {
